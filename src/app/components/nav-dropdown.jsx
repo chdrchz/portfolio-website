@@ -6,7 +6,8 @@ const Dropdown = () => {
   const [gradientPosition, setGradientPosition] = useState({ x: 50, y: 50 });
 
   const handleMouseMove = (e, index) => {
-    const { left, top, width, height } = e.currentTarget.getBoundingClientRect();
+    const { left, top, width, height } =
+      e.currentTarget.getBoundingClientRect();
     const x = ((e.clientX - left) / width) * 100;
     const y = ((e.clientY - top) / height) * 100;
     setHoveredLink(index);
@@ -17,18 +18,23 @@ const Dropdown = () => {
     setHoveredLink(null);
   };
 
-  const links = ["ABOUT ME", "PORTFOLIO", "RESUME", "CONTACT"];
+  const links = [
+    { text: "ABOUT ME", href: "#about" },
+    { text: "PORTFOLIO", href: "#portfolio" },
+    { text: "RESUME", href: "#resume" },
+    { text: "CONTACT", href: "#contact" },
+  ];
 
   return (
     <div className="dropdown">
-      {links.map((linkText, index) => (
+      {links.map((link, index) => (
         <div
           key={index}
           className="dropdown-option"
           onMouseMove={(e) => handleMouseMove(e, index)}
           onMouseLeave={handleMouseLeave}
         >
-          <Link href="#" legacyBehavior>
+          <Link href={link.href} legacyBehavior>
             <a
               style={{
                 background:
@@ -41,7 +47,7 @@ const Dropdown = () => {
                 borderRadius: "5px",
               }}
             >
-              {linkText}
+              {link.text}
             </a>
           </Link>
         </div>

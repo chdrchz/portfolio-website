@@ -11,7 +11,7 @@ export default function Portfolio() {
 
   return (
     <div>
-      <div className="portfolio-heading">
+      <div className="portfolio-heading" id="portfolio">
         <h1>portfolio</h1>
       </div>
       <div className="portfolio">
