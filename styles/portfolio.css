@@ -11,6 +11,8 @@
 .portfolio-heading {
   width: 50vw;
   text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .portfolio-heading h1 {

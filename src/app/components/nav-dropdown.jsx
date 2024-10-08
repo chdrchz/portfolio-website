@@ -21,8 +21,8 @@ const Dropdown = () => {
   const links = [
     { text: "ABOUT ME", href: "#about" },
     { text: "PORTFOLIO", href: "#portfolio" },
-    { text: "RESUME", href: "#resume" },
     { text: "CONTACT", href: "#contact" },
+    { text: "RESUME", href: "#resume" },
   ];
 
   return (

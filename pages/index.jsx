@@ -7,6 +7,8 @@ import { Montserrat } from '@next/font/google';
 
 import "../styles/index.css";
 import "../styles/global.css";
+
+import Contact from '@/app/components/contact.jsx';
 import Portfolio from '@/app/components/portfolio.jsx';
 
 const montserrat = Montserrat({
@@ -20,6 +22,7 @@ export default function Index() {
         <Header />
         <About />
         <Portfolio />
+        <Contact />
       </div>
     );
   }

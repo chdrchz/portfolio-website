@@ -4,6 +4,7 @@
     flex-direction: row;
     padding: 10rem;
     gap: 4vw;
+    align-items: center;
 }
 
 .about-image {
@@ -39,6 +40,6 @@
 }
 
 .about-description p {
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-align: justify;
 }
