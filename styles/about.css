@@ -1,0 +1,44 @@
+.about {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+    gap: 4vw;
+}
+
+.about-image {
+    width: 500px; /* Fixed width */
+    height: 500px; /* Fixed height */
+    position: relative;
+    border: 4px solid #232020;
+    text-align: center;
+    overflow: hidden;
+}
+
+.about-image img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.about-description {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50vw;
+}
+
+.about-description_heading {
+    border-bottom: 4px solid #232020;
+}
+
+.about-description h2 {
+    font-size: 5vw;
+    margin: 0;
+    text-align: right;
+}
+
+.about-description p {
+    font-size: 2vw;
+    text-align: justify;
+}

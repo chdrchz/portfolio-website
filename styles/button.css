@@ -1,0 +1,16 @@
+.button {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: solid;
+    border-radius: 25px;
+    border-color: #232020;
+    font-size: 1.2em;
+}
+
+.button-icon {
+    display: flex;
+}
