@@ -12,7 +12,7 @@ export default function Portfolio() {
   return (
     <div>
       <div className="portfolio-heading" id="portfolio">
-        <h1>portfolio</h1>
+        <h2>portfolio</h2>
       </div>
       <div className="portfolio">
         <div className="portfolio-description">
