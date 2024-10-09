@@ -22,7 +22,9 @@ export default function Index() {
         <Header />
         <About />
         <Portfolio />
-        <Contact />
+        <div className="contact">
+          <Contact />
+        </div>
       </div>
     );
   }
