@@ -28,7 +28,7 @@ export default function About() {
                     I'm excited to combine my empathy, adaptability, and problem-solving skills with my technical expertise 
                     to collaborate with others who share a passion for using technology in aims to shape the future.
                     </p>
-                    <p><b>Let's shape it together!</b></p>
+                    <p><b>Let's do it together!</b></p>
                 </div>
             </div>
         </div>
